@@ -124,9 +124,24 @@
             // 9- Convert int pages = 464 into a string using ToString().
             // Print its type using GetType().
 
-            int pages2 = 464;
-            string textPages = pages2.ToString();
-            Console.WriteLine(textPages.GetType());
+            //int pages2 = 464;
+            //string textPages = pages2.ToString();
+            //Console.WriteLine(textPages.GetType());
+
+            #endregion
+
+            #region Question 10
+
+            // 10- Declare int copies = 100.
+            // Box it into an object, then unbox it into an int.
+            // Print both values.
+
+            int copies = 100;
+            object boxed = copies;
+            int unboxed = (int)boxed;
+
+            Console.WriteLine(boxed);
+            Console.WriteLine(unboxed);
 
             #endregion
         }
