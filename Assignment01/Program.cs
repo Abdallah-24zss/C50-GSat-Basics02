@@ -81,8 +81,18 @@
             // 6- Declare double price = 49.99;
             // convert it to int using explicit casting.
 
-            double price = 49.99;
-            int newPrice = (int)price;
+            //double price = 49.99;
+            //int newPrice = (int)price;
+
+            #endregion
+
+            #region Question 7
+
+            // 7- Convert string pagesText = "464" into an int
+            // using the Convert class.
+
+            string pagesText = "464";
+            int convertedPages = Convert.ToInt32(pagesText);
 
             #endregion
         }
