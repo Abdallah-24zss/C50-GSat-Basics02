@@ -39,7 +39,30 @@
             // int pages = "464";
 
             // Compile-Time Error
-            int pages = 464;
+            // int pages = 464;
+
+            #endregion
+
+            #region Question 4
+
+            // 4- Write code that divides 10 by 0 inside a try block,
+            // catches the exception, prints "Cannot divide by zero",
+            // and then prints "Done" in a finally block.
+
+            try
+            {
+                int num = 10;
+                int zero = 0;
+                int result = num / zero;
+            }
+            catch (DivideByZeroException ex)
+            {
+                Console.WriteLine("Cannot divide by zero");
+            }
+            finally
+            {
+                Console.WriteLine("Done");
+            }
 
             #endregion
         }
