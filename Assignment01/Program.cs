@@ -25,10 +25,21 @@
             // ToString(), Equals() (compare book with itself),
             // GetHashCode(), and GetType() on book.
 
-            Console.WriteLine(firstBook.ToString());
-            Console.WriteLine(firstBook.Equals(firstBook));
-            Console.WriteLine(firstBook.GetHashCode());
-            Console.WriteLine(firstBook.GetType());
+            //Console.WriteLine(firstBook.ToString());
+            //Console.WriteLine(firstBook.Equals(firstBook));
+            //Console.WriteLine(firstBook.GetHashCode());
+            //Console.WriteLine(firstBook.GetType());
+
+            #endregion
+
+            #region Question 3
+
+            // 3- Look at the line below. Is it a compile-time error,
+            // a runtime error, or a logical error? Fix it.
+            // int pages = "464";
+
+            // Compile-Time Error
+            int pages = 464;
 
             #endregion
         }
