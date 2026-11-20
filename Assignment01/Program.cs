@@ -102,20 +102,31 @@
             // Use int.TryParse() for badText = "abc".
             // Print "Invalid number" if it fails.
 
-            string yearText = "2023";
-            int year = int.Parse(yearText);
+            //string yearText = "2023";
+            //int year = int.Parse(yearText);
 
-            string badText = "abc";
-            int number;
+            //string badText = "abc";
+            //int number;
 
-            if (int.TryParse(badText, out number))
-            {
-                Console.WriteLine(number);
-            }
-            else
-            {
-                Console.WriteLine("Invalid number");
-            }
+            //if (int.TryParse(badText, out number))
+            //{
+            //    Console.WriteLine(number);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Invalid number");
+            //}
+
+            #endregion
+
+            #region Question 9
+
+            // 9- Convert int pages = 464 into a string using ToString().
+            // Print its type using GetType().
+
+            int pages2 = 464;
+            string textPages = pages2.ToString();
+            Console.WriteLine(textPages.GetType());
 
             #endregion
         }
