@@ -49,20 +49,30 @@
             // catches the exception, prints "Cannot divide by zero",
             // and then prints "Done" in a finally block.
 
-            try
-            {
-                int num = 10;
-                int zero = 0;
-                int result = num / zero;
-            }
-            catch (DivideByZeroException ex)
-            {
-                Console.WriteLine("Cannot divide by zero");
-            }
-            finally
-            {
-                Console.WriteLine("Done");
-            }
+            //try
+            //{
+            //    int num = 10;
+            //    int zero = 0;
+            //    int result = num / zero;
+            //}
+            //catch (DivideByZeroException ex)
+            //{
+            //    Console.WriteLine("Cannot divide by zero");
+            //}
+            //finally
+            //{
+            //    Console.WriteLine("Done");
+            //}
+
+            #endregion
+
+            #region Question 5
+
+            // 5- Declare an int pages = 300; then store it in a
+            // double variable without using a cast.
+
+            int pages = 300;
+            double newPages = pages;
 
             #endregion
         }
