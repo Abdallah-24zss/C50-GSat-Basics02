@@ -71,8 +71,18 @@
             // 5- Declare an int pages = 300; then store it in a
             // double variable without using a cast.
 
-            int pages = 300;
-            double newPages = pages;
+            //int pages = 300;
+            //double newPages = pages;
+
+            #endregion
+
+            #region Question 6
+
+            // 6- Declare double price = 49.99;
+            // convert it to int using explicit casting.
+
+            double price = 49.99;
+            int newPrice = (int)price;
 
             #endregion
         }
